@@ -1,0 +1,104 @@
+digraph CheckersSearchTree {
+    rankdir=TB;
+
+    graph [
+        fontname="Arial"
+    ];
+
+    node [
+        shape=box,
+        fontname="Arial",
+        fontsize=10
+    ];
+
+    edge [
+        fontname="Arial",
+        fontsize=9
+    ];
+
+    Root [
+        label="MAX ROOT\nd=3\nalpha=-∞, beta=+∞"
+    ];
+
+    Min1 [
+        label="MIN d=2\nalpha=-∞, beta=+∞"
+    ];
+
+    Max1 [
+        label="MAX d=1\nalpha=-∞, beta=+∞"
+    ];
+
+    Leaf1 [
+        label="HEF = -350"
+    ];
+
+    Leaf2 [
+        label="HEF = -350"
+    ];
+
+    Leaf3 [
+        label="HEF = -335"
+    ];
+
+    Leaf4 [
+        label="HEF = -335"
+    ];
+
+    Min2 [
+        label="MIN d=2\nalpha=-∞, beta=-335"
+    ];
+
+    Max2 [
+        label="MAX d=1\nalpha=-∞, beta=-335"
+    ];
+
+    Leaf5 [
+        label="HEF = -115"
+    ];
+
+    Cutoff [
+        label="ВІДТИНАННЯ\nbeta=-335 <= alpha=-115",
+        style=dashed
+    ];
+
+    Root -> Min1 [
+        label="[4,1] x [2,3]"
+    ];
+
+    Min1 -> Max1 [
+        label="[3,4] x [5,2]"
+    ];
+
+    Max1 -> Leaf1 [
+        label="[2,3] -> [1,2]"
+    ];
+
+    Max1 -> Leaf2 [
+        label="[2,3] -> [1,4]"
+    ];
+
+    Max1 -> Leaf3 [
+        label="[5,4] -> [4,3]"
+    ];
+
+    Max1 -> Leaf4 [
+        label="[5,4] -> [4,5]"
+    ];
+
+    Min1 -> Min2 [
+        label="[3,4] x [1,2]"
+    ];
+
+    Min2 -> Max2 [
+        label="наступна гілка"
+    ];
+
+    Max2 -> Leaf5 [
+        label="[4,3] -> [3,2]"
+    ];
+
+    Max2 -> Cutoff [
+        label="інші ходи\nне досліджуються",
+        style=dotted
+    ];
+}

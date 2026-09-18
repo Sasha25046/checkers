@@ -1,0 +1,15 @@
+/workspaces/checkers/bin/Debug/net10.0/checkers
+/workspaces/checkers/bin/Debug/net10.0/checkers.deps.json
+/workspaces/checkers/bin/Debug/net10.0/checkers.runtimeconfig.json
+/workspaces/checkers/bin/Debug/net10.0/checkers.dll
+/workspaces/checkers/bin/Debug/net10.0/checkers.pdb
+/workspaces/checkers/obj/Debug/net10.0/checkers.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/checkers/obj/Debug/net10.0/checkers.AssemblyInfoInputs.cache
+/workspaces/checkers/obj/Debug/net10.0/checkers.AssemblyInfo.cs
+/workspaces/checkers/obj/Debug/net10.0/checkers.csproj.CoreCompileInputs.cache
+/workspaces/checkers/obj/Debug/net10.0/checkers.sourcelink.json
+/workspaces/checkers/obj/Debug/net10.0/checkers.dll
+/workspaces/checkers/obj/Debug/net10.0/refint/checkers.dll
+/workspaces/checkers/obj/Debug/net10.0/checkers.pdb
+/workspaces/checkers/obj/Debug/net10.0/checkers.genruntimeconfig.cache
+/workspaces/checkers/obj/Debug/net10.0/ref/checkers.dll
